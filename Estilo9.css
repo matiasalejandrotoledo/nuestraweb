@@ -1,0 +1,79 @@
+*{
+    margin: 100;
+    padding: auto;
+}
+body {
+    height: 2000px;
+    background-image: url("C:/Nivel9/Img/Fondo.jpg");
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 350px 50px 1450px 10%;
+    grid-template-areas: "a1 a1" 
+                        "a3 a3" 
+                        " a5 a6" 
+                        "a7 a7";
+  }
+.Titulos{
+    font-family: 'Yuji Syuku', serif;
+}
+.Parrafos{
+    font-family: 'Yuji Mai', serif;
+    font-family: 'Yuji Syuku', serif;
+    background-color:slategray ;
+}
+.Encabezado{
+    background-color:slategray ;
+    grid-area: a1;
+}
+.Navegador{
+    background-color:slategray ;
+    grid-area: a3;
+}
+.Main{
+    background-color:slategray ;
+    grid-area: a5;
+}
+
+
+.Pie{
+    background-color: slategray;
+    grid-area: a7;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+.Carta1{
+  height: 200px;
+  width: 200px;
+}
+.Carta2{
+  height: 200px;
+  width: 200px;
+}
+.Carta3{
+  height: 200px;
+  width: 200px;
+  position: inherit;
+}
